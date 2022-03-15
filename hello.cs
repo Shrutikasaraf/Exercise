@@ -5,8 +5,10 @@ namespace ConsoleApp4
     internal class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+        { 
+            string name = args[0];
+  
+            Console.WriteLine("Hello World! {0}",name);
         }
     }
 }
